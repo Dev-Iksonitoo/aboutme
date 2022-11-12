@@ -1,0 +1,320 @@
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b3b3b3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3d3d3d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2a2a;
+}
+    body, html {
+      margin: 0;
+      padding: 0;
+      background-attachment:fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+	  background-color: black;
+      font-family: 'FiraGO', sans-serif;
+
+}
+
+a:link {
+color: rgb(255, 255, 255);
+background-color: transparent;
+text-decoration: none;
+}
+
+
+a:hover {
+color: rgb(255, 255, 255);
+background-color: transparent;
+text-decoration: underline;
+}
+
+
+
+
+    #main-container {
+        margin: 0;
+        padding: 5px 2x;     /* top bar zeda zoma */
+        background-image:;
+        color: white;
+    }
+    .topbar {
+      display: table;
+      width: 100%;
+      height: 33px;
+      table-layout: fixed; /*Optional*/
+      border: 1px solid rgb(24, 24, 24);
+      background-color: #18181a;
+      margin-bottom: 5px;
+    }
+    .topbar text {
+      display: table-cell;
+      font-size: 15px;
+      vertical-align: inherit;
+      padding-top: 4%;
+    }
+
+    #left{
+        display: table-cell;
+        background-color:  #18181a;
+        height: 30px;
+    }
+
+
+    #topside {
+      display: inline-flex;
+      background-color:  #18181a;
+      height: 30px;
+    }
+
+    #right{
+        display: table-cell;
+        background-color:  #18181a;
+        height: 30px;
+        float:right;
+    }
+
+
+    #myaccount {
+       background-color: #14cc74;
+       border: none;
+       color: black;
+       padding: 3px 5px;
+       text-align: center;
+       text-decoration: none;
+       font-size: 14px;
+       cursor: pointer;
+       transition-duration: 0.1s;
+       height: 33px;
+       width: 100px;
+      font-family: 'FiraGO', sans-serif;
+    }
+    #myaccount:hover {
+       background-color: #414141; /* Green */
+       color: white;
+     }
+    #myaccount a {
+      color:black;
+      text-decoration: none;
+    }
+    #myaccount a:hover {
+      color:white;
+      text-decoration: none;
+    }
+
+
+
+
+  #changemode {
+    float:right;
+  }
+
+   .menubar {
+     display: table;
+     width: 100%;
+     height: 30px;
+     table-layout: fixed; /*Optional*/
+     border-spacing: 5px; /*Optional*/
+   }
+
+   #searchpricecolumn {
+       display: table-cell;
+       background-color:  #18181a;
+       height: 30px;
+       width: 360px;
+   }
+
+   #search-form {
+      padding-left: 10px;
+      font-size: 14px;
+
+   }
+   #search-form .inputsearch
+   {
+     height: 30px;
+     outline: none;
+   }
+   #search-form .buttonser {
+     position:absolute;
+     border: none;
+     color: white;
+     padding: 3px 6px 2px 6px;
+     margin-left: 5px;
+     cursor: pointer;
+     height: 35px;
+     width: 37px;
+ }
+   #search-form .buttonser:hover {
+   background-color: #18181a;
+ }
+
+
+   #autorefresh {
+       display: table-cell;
+       background-color:  #18181a;
+       padding-left: 10px;
+       height: 30px;
+       width: 270px;
+
+   }
+
+   #sec {
+     margin-left: 5px;
+	 height: 33px;
+     padding-left: 5px;
+     width: 65px;
+     outline: none;
+    -webkit-appearance: none;
+   }
+
+  .autoref {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .autoref select {
+     height: 33px;
+     padding-left: 5px;
+     width: 65px;
+     outline: none;
+    -webkit-appearance: none;
+  }
+
+
+   #blankcolumn {
+       display: table-cell;
+       background-color:  #18181a;
+       height: 30px;
+   }
+
+
+
+   #searchcolumn {
+       display: table-cell;
+       background-color:  #18181a;
+       height: 30px;
+   }
+
+
+  #searchitem {
+    outline: none;
+    height: 34px;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    color:black;
+    padding-right: 6px;
+  }
+
+
+
+
+  #main-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0 5px;
+      font-size: 14px;
+  }
+  #main-table tbody {
+      background-color: #18181a;
+  }
+
+  #main-table th, #main-table td{
+      padding: 4px;
+  }
+
+  #main-table tr:hover {
+      background-color: rgb(43, 43, 43);
+  }
+
+  #main-table th {
+      background-color: #18181a;
+  }
+  #main-table a {
+      color:#ffffff;
+  }
+
+  #main-table .avatar-cell {
+      background-size: 48px !important;
+      background-position: center !important;
+      height: 48px;
+      width: 48px;
+      padding: 1px;
+      cursor: pointer;
+  }
+   #main-table .item-cell {
+    background-size: 73px!important;
+    background-position: center!important;
+    height: 50px;
+    width: 73px;
+    padding: 1px;
+  }
+
+  #main-table .copy-text-button {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: green;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 5px;
+      width: 50px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+  }
+  #china {
+        background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1200px-China_Flag_-_Alternative.svg.png);
+        width: 20px;
+        height: 15px;
+        background-repeat: no-repeat;
+ }
+  #main-table .copy-text-button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+  }
+  #main-table .listing-row.visited {
+      background-color: #18181a;
+      color: #dadada;
+
+  }
+  #main-table .button {
+     background-color: #14cc74;
+     border: none;
+     color: black;
+     padding: 3px 5px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 14px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 2px;
+     transition-duration: 0.1s;
+    font-family: 'FiraGO', sans-serif;
+  }
+  #main-table .button:hover {
+     background-color: #414141; /* Green */
+     color: white;
+   }
